@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: black;">
+    <div id="hahaha"></div>
+    <div id="ack"></div>
+    <iframe src="https://www.youtube.com/embed/5bNpeT2silk" frameborder="0" id="videoo"></iframe>
+    <script>
+        let songs = [
+    {
+        title:'Lớp 13',
+        singer: 'Rapper: Tage',
+        src: 'https://www.youtube.com/embed/Pv7JKxRd7jo'
+    },
+    {
+        title: 'Eyes',
+        singer: 'Rapper: GDucky',
+        src: 'https://www.youtube.com/embed/5bNpeT2silk',
+        page: 'index1.html'
+    }
+]
+let a = document.getElementById("hahaha"); 
+let b = document.getElementById("ack"); 
+let c = document.getElementById("videoo")
+a.innerHTML = songs[1].title;
+b.innerHTML = songs[1].singer;
+a.style.color = "white"
+a.style.fontFamily =  "'Chakra Petch', sans-serif"
+a.style.fontSize = "70px"
+a.style.textAlign = "center"
+a.style.marginTop = "50px"
+b.style.color = "white"
+b.style.fontFamily =  "'Chakra Petch', sans-serif"
+b.style.fontSize = "30px"
+b.style.textAlign = "center"
+b.style.marginTop = "55px"
+c.style.width = "600px"
+c.style.marginTop = "60px"
+c.style.height = "300px"
+c.style.marginLeft = "370px"
+  </script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+.container1{
+    height: 636px;
+    width:1300px;
+    background-image: linear-gradient(to top,rgba(185, 184, 184, 0), rgba(114, 112, 112, 0.73)),url(https://pbs.twimg.com/media/ESeNrs5UYAA2w3B?format=jpg&name=large);
+    background-size: 1620px;
+    background-repeat: no-repeat;
+}
+.char{
+    display: flex;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+    
+      
+}
+.char::-webkit-scrollbar {
+    display: none;
+}
+.character{
+    height: 300px;
+    display: inline-block;
+    margin-top: 320px;
+}
+.popup {
+    background-image:linear-gradient(rgba(228, 225, 225, 0.73), rgba(236, 228, 228, 0.73)), url(https://thegeekiary.com/wp-content/uploads/2020/03/battle-lines-haikyuu-5.png);
+    background-size: 700px;
+    background-position-y:-30px ;
+    position:fixed;
+    border:solid 1px black;
+    width:700px;
+    height:350px;
+    margin-left: -280px;
+    left:45%;
+    top:25%;
+    display:none;
+    background-color:white;
+    position: absolute;
+    margin-top: 60px;
+    border-radius: 5%;
+    border: solid 5px whitesmoke;
+
+}
+    
+    .cover {
+    background-color:black;
+    width:100%;
+    height:100%;
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    }
+    .banner{
+        position: absolute;
+    }
+    .close {
+    color:#fff;
+    font-weight:bold;
+    background-color:#454545;
+    width:12px;
+    height:12px;
+    position:absolute;
+    top:-12px;
+    left:-12px;
+    padding:4px 6px 8px 6px;
+    border-radius:25px;
+    cursor:pointer;
+    }
+.pic{
+    display: flex;
+    margin-left: 420px;
+    margin-top: 30px;
+    width: 450px;
+    height: 170px;
+    border-radius: 5%;
+
+}
+.coloring1{
+    font-size: 20px;
+    color: orangered;
+    text-align: center;
+    font-family: 'Piedra', cursive;
+}
+p{
+    font-size: 14px;
+    line-height: 0.3;
+    color: black;
+    margin-left: 60px;
+}
+.coloringg{
+    color: orangered;
+    font-size: 18px;
+}
+span{
+    color: orangered;
+}
+

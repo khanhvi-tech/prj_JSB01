@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haikyuu Unofficial Website</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBpi-eU3cLsmJwAqZYjwypFNwOzwk66gTTvA&usqp=CAU" type="image/gif" sizes="16x16">
+    <script src="https://kit.fontawesome.com/717a63a49a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">      
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+<style>
+.container1{
+    position: absolute;
+}
+.buttin{
+    text-align: center;
+    width: 70px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid rgb(248, 246, 246);
+    background-color: orangered;
+    box-shadow: 0 1px 1px rgba(255, 62, 3, 0.336), 
+                0 2px 2px rgba(255, 62, 3, 0.336), 
+                0 4px 4px rgba(255, 62, 3, 0.336), 
+                0 8px 8px rgba(255, 62, 3, 0.336),
+                0 16px 16px rgba(255, 62, 3, 0.336);
+    transition: all 0.5s ease;
+    margin-top: 80px;
+    margin-left: 790px;
+    color: whitesmoke;
+    font-family: 'Langar', cursive;
+    font-size:20px ;
+    position: absolute;
+    
+
+}
+.buttin:hover{
+    transform: scale(1.1);
+
+}
+.texto{
+    font-size: 25px;
+    font-family: 'Langar', cursive;
+    color: orangered;
+    word-wrap: break-word;
+
+    }
+.backgrounder{
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: rgba(245, 245, 245, 0.747);
+    width: 900px;
+    height: 200px;
+    border-radius: 30px;
+    margin-top: 420px;
+    margin-left: 200px;
+
+
+}
+.anh1{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 30px;
+    width: 190px;
+}
+.anh2{
+    position: absolute;
+    margin-left: 800px;
+    margin-top: -17px;
+    width: 265px;
+}
+
+</style>
+
+
+</head>
+<body style="background-image: url(https://i.ibb.co/F0yjFpk/Screenshot-17.png);width: 1300px; background-size: 1450px;background-position-x: -70px;background-position-y: -80px;">
+ 
+    <div class="container1" >
+        
+        <img class="anh1" id="ankk" data-aos="fade-right"data-aos-duration="2000" src="https://i.ibb.co/QC2p32x/tumblr-nqisty-NBh-N1sayodqo1-1280hjh-removebg-preview.png" alt="">
+        <img class="anh2" id="ank" data-aos="fade-left"data-aos-duration="2000" src="https://i.ibb.co/bPksjFM/tumblr-nqisty-NBh-N1sayodqo1-1280jh-removebg-preview.png" alt="">
+        <div class="backgrounder">
+            <div class="texto" data-aos="fade-down"data-aos-duration="2000" id="cac">[You call the freak combo back to greet them] Hello Hinata, Kageyama! <br> <br> <b> Hinata:</b> Oh! It's Y/N! (Your Name). So early in the morning huhhhhh?</div>
+            <button class="buttin" id="cucu" onclick="change1()" style="margin-top:5px ;">Next</button>
+        </div>
+    
+        <script>
+            function change1(){
+                
+                document.getElementById("cac").innerHTML=`<div>
+           <div class="texto" id="huhu"  > <b>Kageyama:</b> Good morning, Y/N. <br> <b>Hinata:</b> We are heading to the school gym for morning practice. Wanna come together?</p> 
+           <button style="margin-top:-15px;" class="buttin" onclick="change2()">Next</button>
+        </div> `;
+        document.getElementById("cucu").style.display="none"
+        
+            }
+            function change2(){
+                document.getElementById("huhu").innerHTML = `<div>
+           <div class="texto" id="hihi"><b>You:</b></p> 
+           <button style="margin-top: 10px; width:200px;height:93px;pading:20px;margin-left:550px" class="buttin" onclick="change4()">No, I want to pass by the convenience store!</button>
+           <button style="margin-top: 25px;margin-left:100px;width:200px" class="buttin" onclick="change3()">Yes, ofcourse!</button>
+        </div>`
+            }
+            function change4(){
+                document.getElementById("hihi").innerHTML = `<div>
+           <div class="texto" id="hehe"> <b>Hinata:</b> Ok...That is sad but...see you around at school, Y/N! And remember to come to the club tonight, because we will have-hhhmmm!</p> 
+           <button style="margin-top: 25px;" class="buttin" onclick="change5()">Next</button>
+        </div>`
+            
+
+            }
+            function change5(){
+                document.getElementById("hihi").innerHTML = `<div>
+           <div class="texto" id="hehe" style="font-size:19px">[Hinata is talking when a hand suddenly covers his mouth. Kageyama, with a bewildering face, splatters]: <br> <b>Kageyama: </b>D-Don't mind this boge. We hope to see you tonight, Y/N! <br> [Then, he grabs Hinata who is in fear of being punched for (almost) let somecat out of the bag and then runs ahead, leaves you standing rooted to the spot and don't know what is going on. You can still hear Hinata's voice from afar.]  </p> 
+           <button style="margin-top: -38px;" class="buttin" onclick="change6()">Next</button>
+        </div>`
+            
+
+            }
+            function change6(){
+                document.getElementById("hihi").innerHTML = `<div>
+           <div class="texto" style="font-size:23px" id="hehe"><b>Hinata:</b> Help me Y/NNNNNNNN!!!!! <br> [You smile, thinking]: Well, at least I haven't known anything yet, so don't worry Hinata! <br> [But, the previous event still urges curiosity inside you. You make for the convenience store for some school suppliers while being daydreaming, and then... ]  </p> 
+           <button style="margin-top: -45px;" class="buttin" onclick="change17()">Next</button>
+        </div>`
+            
+
+            }
+            function change17(){
+                document.getElementById("hihi").innerHTML = `<div>
+           <div class="texto" style="font-size:23px" id="hehe"><b>???:</b> If we choose this, it will be like "ROLLING THUNDERRR" <br><b>???:</b> WOOOOOOOO that is right, why did'nt I think of this sooner!! Ya a genius Noya-sannnnn! <br>[The voices come from a convenience store nearby, where you are also going <br>to pass by] </p> 
+           <button style="margin-top: -68px;" class="buttin" onclick="change18()">Next</button>
+        </div>`
+                document.getElementById("ank").style.display="none";
+                document.getElementById("ankk").style.display="none"
+            
+
+            }
+            function change18(){
+                document.getElementById("hihi").innerHTML = `<div>
+                    <img style="position:absolute; margin-top:-465px;width:450px;margin-left:200px" src="https://i.ibb.co/MSNrzyD/tumblr-nqisty-NBh-N1sayodqo3-1280-removebg-preview.png" alt="">
+           <div class="texto" style="font-size:20px" id="hehe">[Huh, this feels like...] <br><b>You:</b> Nishinoya-san, Tanaka-san?<br> [You get into the convenience store and catch sight of Karasuno's Libero and one of the Wing Spikers - Nishinoya Yuu and Tanaka Ryunosuke -  in the middle of choosing something. The two turn around, look at you for a second and then promptly brighten, come at you like a wind] </p> 
+           <button style="margin-top: -40px;" class="buttin" onclick="change19()">Next</button>
+        </div>`
+                document.getElementById("ank").style.display="none";
+                document.getElementById("ankk").style.display="none"
+            
+
+            }
+            function change19(){
+                document.getElementById("hihi").innerHTML = `<div>
+                    <img style="position:absolute; margin-top:-465px;width:450px;margin-left:200px" src="https://i.ibb.co/MSNrzyD/tumblr-nqisty-NBh-N1sayodqo3-1280-removebg-preview.png" alt="">
+           <div class="texto" style="font-size:20px" id="hehe"><b>Nishinoya:</b>Y/N! Mercy seeing you here! We are choosing things that definitely need your recommendation!<br><b>You:</b>Really?<br><b>Tanaka:</b>Good morning, Y/N. I bet you have met my dear kouhais just a few moments ago right?<br>[You think a bit and then respond]<br><b>You:</b>Your kouhais....You mean...Hinata and Kageyama?</p> 
+           <button style="margin-top: -70px;" class="buttin" onclick="change20()">Next</button>
+        </div>`
+                document.getElementById("ank").style.display="none";
+                document.getElementById("ankk").style.display="none"
+            
+
+            }
+            function change20(){
+                document.getElementById("hihi").innerHTML = `<div>
+                    <img style="position:absolute; margin-top:-465px;width:450px;margin-left:200px" src="https://i.ibb.co/MSNrzyD/tumblr-nqisty-NBh-N1sayodqo3-1280-removebg-preview.png" alt="">
+           <div class="texto" style="font-size:20px" id="hehe">[Tanaka laughes out loud]<br><b>Tanaka:</b>Yes yes, that is those two. You are really smart for remembering the way I call them so fast!<br>[You smile relaxingly, respond:]Nooo it's not that, but thank you Tanaka-san! By the way, why do you know? <br> [Nishinoya comes closer to you and be ready to give a full reply] </p> 
+           <button style="margin-top: -50px;" class="buttin" onclick="change21()">Next</button>
+        </div>`
+                document.getElementById("ank").style.display="none";
+                document.getElementById("ankk").style.display="none"
+            
+
+            }
+            function change21(){
+                document.getElementById("hihi").innerHTML = `<div>
+                    <img style="position:absolute; margin-top:-465px;width:450px;margin-left:200px" src="https://i.ibb.co/MSNrzyD/tumblr-nqisty-NBh-N1sayodqo3-1280-removebg-preview.png" alt="">
+           <div class="texto" style="font-size:18px" id="hehe"><b>Nishinoya:</b>Well, because they promise to meet me at noon after finising the-<br>[Nishinoya is talking when Tanaka suprisingly interrupts]<br>Tanaka (whisper):</b>Bzzzzz Noya-san!<br>[Nishinoya stares at Tanaka, and startles like suddenly having recollection of something] <br> <b>Nishinoya:</b>Wait-That's right, I forgot. It's nothing Y/N! We gotta do this by ourself. Do you want to wait for us and go pick something for the time being, or head straight to school? </p> 
+           <button style="margin-top: -47px;" class="buttin" onclick="change22()">Next</button>
+        </div>`
+                document.getElementById("ank").style.display="none";
+                document.getElementById("ankk").style.display="none"
+            
+
+            }
+            function change22(){
+                document.getElementById("hihi").innerHTML = `<div>
+                    <img style="position:absolute; margin-top:-465px;width:450px;margin-left:200px" src="https://i.ibb.co/MSNrzyD/tumblr-nqisty-NBh-N1sayodqo3-1280-removebg-preview.png" alt="">
+           <div class="texto" style="font-size:18px" id="hehe"><b>You:</b>Oh...so I guess I will wait for you here, 'cause I also have something to buy anyway. <br>[The two smile lively and then disppear among items shelves of the convenience store, once again make you feel questioning] <br><b>In your mind:</b>I know there will be a club meeting which is kinda late tonight, and ofcourse I have family's permission because it's Christmas afterall. But why do they have to be so secretive if it's just a normal Christmas party?</p> 
+           <button style="margin-top: -50px;" class="buttin" onclick="change23()">Next</button>
+        </div>`
+                document.getElementById("ank").style.display="none";
+                document.getElementById("ankk").style.display="none"
+            
+
+            }
+            function change23(){
+                document.getElementById("hihi").innerHTML = `<div>
+           <div class="texto" style="font-size:18px" id="hehe">[You decide to stop thinking about it and go through the item shelves to choose your needed commodities. Suddenly, you hear a voice coming from behind]<br><b>???:</b></p> 
+           <button style="margin-top: -50px;" class="buttin" onclick="change24()">Next</button>
+        </div>`
+                document.getElementById("ank").style.display="none";
+                document.getElementById("ankk").style.display="none"
+            
+
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+            function change3(){
+                document.getElementById("hihi").innerHTML = `<div>
+           <div class="texto" id="hehe"> <b>Hinata:</b> That's greatttt! Let's go!</p> 
+           <button style="margin-top: 40px;" class="buttin" onclick="change7()">Next</button>
+        </div>`
+            }
+            function change7(){
+                document.getElementById("hihi").innerHTML = `<div>
+           <div class="texto" id="hehe">[The three of you head to school together while gossiping about friends, the vice-principle's wig, the stray cat that the freak combo met last night,.... when you meet the cross road, and then...] </p> 
+           <button style="margin-top: -30px;" class="buttin" onclick="change8()">Next</button>
+        </div>`
+            }
+            function change8(){
+                document.getElementById("hihi").innerHTML = `<div>
+           <div class="texto" style="font-size:23px;" id="hehe"><b>Hinata:</b> Oh, it's Tsukishima! <br> [You turn to Hinata's hand direction and then catch sight of a very tall, good-looking and bond hair boy. He is walking a few miles ahead in the cross road, wearing a snow-colored headphone. It's Tsukishima Kei, the 1st year Middle Blocker of Karasuno, same position as Hinata] </p> 
+           <button style="margin-top: -55px;" class="buttin" onclick="change9()">Next</button>
+        </div>`
+            }
+            function change9(){
+                document.getElementById("hihi").innerHTML = `<div>
+                    <img style="position:absolute; margin-top:-420px;width:280px;margin-left:300px" src="https://i.ibb.co/GC8KwzX/740478-removebg-preview.png" alt="">
+           <div class="texto" id="hehe" style="font-size:20px"><b>Tsukishima:</b>Huh? [He turns around as hearing Hinata's voice] <br><b>Hinata:</b> Heyyyyy good morning Tsukishima!<br> <b>Kageyama:</b>...[grinds]<br>[Tsukishima waits for us to come nearer to him, and then suddenly smirks]<br> <b>Tsukishima:</b> Good morning, Y/N-san, and...Arara~ There is the King and, huh?</p> 
+           <button style="margin-top: -70px;" class="buttin" onclick="change10()">Next</button>
+        </div>`
+                document.getElementById("ank").style.display="none";
+                document.getElementById("ankk").style.display="none"
+            }
+            function change10(){
+                document.getElementById("hihi").innerHTML = `<div>
+                    <img style="position:absolute; margin-top:-420px;width:280px;margin-left:300px" src="https://i.ibb.co/GC8KwzX/740478-removebg-preview.png" alt="">
+           <div class="texto" id="hehe"><b>Tuskishima:</b> My apology, Majesty. But where is the Shrimp accompanying with you everyday?</p> 
+           <button style="margin-top: 0px;" class="buttin" onclick="change11()">Next</button>
+        </div>`
+                document.getElementById("ank").style.display="none";
+                document.getElementById("ankk").style.display="none"
+            }
+            function change11(){
+                document.getElementById("hihi").innerHTML = `<div>
+           <div class="texto" id="hehe"><b>Hinata:</b> Tsukishimaaaaaaa you jerkkkkk!!! Don't you dare making fun of my height you bamboo stickkkk!! Keep your eyes wider because I'm right here!! <br> [Tsukishima reaches his hands out to cover his ears while still smirking, and suddenly feels a cold gaze comes from Karasuno's setter]<br> <b>Kageyama:</b> Hey, stop calling me "King".  </p> 
+           <button style="margin-top: -90px;" class="buttin" onclick="change12()">Next</button>
+        </div>`
+                document.getElementById("ank").style.display="block";
+                document.getElementById("ankk").style.display="block"
+            }
+            function change12(){
+                document.getElementById("hihi").innerHTML = `<div>
+                    <img style="position:absolute; margin-top:-420px;width:280px;margin-left:300px" src="https://i.ibb.co/GC8KwzX/740478-removebg-preview.png" alt="">
+           <div class="texto" id="hehe">[The smirk in Tsukishima's face becomes more intense]<br><b>Tsukishima:</b>What is it? Is the truth of me being so right irritating you? </p> 
+           <button style="margin-top: 0px;" class="buttin" onclick="change13()">Next</button>
+        </div>`
+                document.getElementById("ank").style.display="none";
+                document.getElementById("ankk").style.display="none"
+            }
+            function change13(){
+                document.getElementById("hihi").innerHTML = `<div>
+           <div class="texto" id="hehe"><b>Kageyama:</b>Huh? Where the hell are you being right?  </p> 
+           <button style="margin-top: 38px;" class="buttin" onclick="change14()">Next</button>
+        </div>`
+                document.getElementById("ank").style.display="block";
+                document.getElementById("ank").style.marginLeft="500px";
+            }
+            function change14(){
+                document.getElementById("hihi").innerHTML = `<div>
+                    <img style="position:absolute; margin-top:-475px;width:290px;margin-left:600px" src="https://i.ibb.co/8YVrtRj/740476-removebg-preview.png" alt="">
+           <div class="texto" id="hehe">[The three of them get into a quarrel, leaving you being puzzled]<br><b>You:</b> </p> 
+            <button style="margin-top: -10px; width:200px;height:93px;pading:20px;margin-left:550px" class="buttin" onclick="change15()">Stop them by switching the topic</button>
+           <button style="margin-top: 5px;margin-left:100px;width:200px" class="buttin" onclick="change16()">Let them be</button>
+        </div>`
+                document.getElementById("ank").style.display="block";
+                document.getElementById("ankk").style.display="block"
+            }
+    
+    
+    
+        </script>
+
+
+    </div>
+
+
+
+
+    <script src="spck544.js"></script>
+    <script src="spck.js"></script>
+    <script src="sanphamcuoikhoa.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>   
+      AOS.init(
+        {
+      // Global settings:
+      disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+      startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+      initClassName: 'aos-init', // class applied after initialization
+      animatedClassName: 'aos-animate', // class applied on animation
+      useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+      disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+      debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+      throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+        }); 
+    </script>
+</body>
+</html>

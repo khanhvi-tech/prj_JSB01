@@ -1,0 +1,359 @@
+.container{
+  height: 300px;
+  width: 1300px;
+
+}
+.Footer{
+  margin-top: 300px;
+}
+
+
+
+.imgg1{
+    position: absolute;
+    margin-top: 55px;
+    background-image:linear-gradient(rgba(228, 225, 225, 0.73), rgba(236, 228, 228, 0.73)), url(https://40.media.tumblr.com/2ac81f9b1d734bd5164ff64585b96af4/tumblr_n3ccedhKGP1tn500wo1_500.jpg);
+    background-size: 510px;
+    background-position-y: 0px;
+    background-position-x: -30px;
+    width: 380px;
+    height: 460px;
+    border: 2px solid rgb(192, 191, 191);
+}
+.imgg2{
+    margin-top: 517px;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-image:linear-gradient(rgba(228, 225, 225, 0.73), rgba(236, 228, 228, 0.73)), url(https://i.pinimg.com/originals/41/8c/37/418c3751439f87af7e9177c5ab3df7df.jpg);
+    background-size: 250px;
+    border: 2px solid rgb(192, 191, 191);
+}
+.imgg3{
+    margin-top: 55px;
+    margin-left: 383px;
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    background-image:linear-gradient(rgba(228, 225, 225, 0.73), rgba(236, 228, 228, 0.73)), url(https://64.media.tumblr.com/14bdc9b0e64bdd18229e41b4327a843a/6a74034131f4b447-3d/s1280x1920/09dc0213c96d1d6db64c960bfd7c288ac2cf5827.jpg);
+    background-size: 280px;
+    border: 2px solid rgb(192, 191, 191);
+}
+.imgg4{
+    margin-top: 517px;
+    margin-left: 250px;
+    position: absolute;
+    width: 662px;
+    height: 250px;
+    background-image:linear-gradient(rgba(228, 225, 225, 0.73), rgba(236, 228, 228, 0.73)), url(https://www.teahub.io/photos/full/221-2213460_haikyuu-oikawa-tooru-and-anime-image.jpg);
+    background-size: 650px;
+    background-position-y: -50px;
+    border: 2px solid rgb(192, 191, 191);
+
+
+}
+
+.imgg8{
+    margin-left: 915px;
+    position: absolute;
+    margin-top: 336px;
+    background-image:linear-gradient(rgba(228, 225, 225, 0.73), rgba(236, 228, 228, 0.73)), url(https://i.pinimg.com/originals/51/9c/5f/519c5f1797ac5d830d8e789d0518db28.jpg);
+    background-size: 420px;
+    background-position-y: -50px;
+    background-position-x: -30px;
+    width: 380px;
+    height: 430px;
+    border: 2px solid rgb(192, 191, 191);
+}
+.imgg5{
+    margin-left: 382px;
+    position: absolute;
+    margin-top: 336px;
+    background-image: linear-gradient(rgba(228, 225, 225, 0.73), rgba(236, 228, 228, 0.73)),url(https://animereviewsin.files.wordpress.com/2020/07/wp6540999-inarizaki-wallpapers-1.jpg);
+    background-size: 510px;
+    background-position-y: -20px;
+    background-position-x: 0px;
+    width: 530px;
+    height: 178px;
+    border: 2px solid rgb(192, 191, 191);
+}
+.imgg6{
+    margin-left: 665px;
+    position: absolute;
+    margin-top: 55px;
+    background-image:linear-gradient(rgba(228, 225, 225, 0.73), rgba(236, 228, 228, 0.73)), url(https://scontent.fhan8-1.fna.fbcdn.net/v/t1.0-9/s960x960/107592955_4063568077018112_996669686387641656_o.jpg?_nc_cat=105&ccb=2&_nc_sid=110474&_nc_ohc=Ji3zDElmBXcAX-WrPxR&_nc_ht=scontent.fhan8-1.fna&tp=7&oh=f1feacab12b260636d33a37b1ba782ad&oe=5FF7EB8A);
+    background-size: 630px;
+    background-position-y: -60px;
+    background-position-x: 0px;
+    width: 626px;
+    height: 278px;
+    border: 2px solid rgb(192, 191, 191);
+}
+.imk1,.imk2{
+    position: absolute;
+    margin-top:-320px ;
+    width: 600px;
+    height: 500px;
+}
+.imk1{
+    margin-top:-170px ;
+    margin-left:-5px ;
+    width: 635px;
+    height: 250px;
+
+}
+.imk2{
+    margin-top:-130px ;
+    margin-left:625px ;
+    width: 665px;
+    height: 260px;
+  
+}
+.header{
+    margin-top: 4px;
+    width: 1300px;
+    height: 775px;
+    
+}
+.worka{
+    margin-left: 390px;
+    margin-top: -500px;
+    position: absolute;
+    width: 600px;
+    height: 500px;
+}
+.ml14 {
+    font-weight: 500;
+    font-size: 3.2em;
+  }
+  
+  .ml14 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+  }
+  
+  .ml14 .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    transform-origin: 100% 100%;
+    bottom: 0;
+  }
+  
+  .ml14 .letter {
+    display: inline-block;
+    color: rgb(207, 55, 0);
+    font-size: 60px;
+    font-family: 'Audiowide', cursive;
+    font-family: 'Knewave', cursive;
+    
+  }
+  .ml9 {
+    display: inline-block;
+    position: relative;
+    font-weight: 200;
+  }
+  
+  .ml9 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 30px;
+    padding-bottom: 0.1em;
+   
+  }
+  
+  .ml9 .letter {
+    color: rgb(202, 54, 0);
+    font-size: 17px;
+    transform-origin: 50% 100%;
+    display: inline-block;
+    line-height: 2px;
+    
+    
+  }
+  .covid{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: whitesmoke;
+    border-radius: 10px;
+    margin-top: 630px;
+    position: absolute;
+    width: 1300px;
+    height: 100px;
+    background-color: red;
+  }
+  
+  .events{
+    position: absolute;
+    margin-left: 980px;
+    margin-top: 0px;
+    background-color: rgb(49, 49, 49);
+    width: 300px;
+    height: 535px;
+    border-radius: 10px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+              0 2px 2px rgba(0,0,0,0.12), 
+              0 4px 4px rgba(0,0,0,0.12), 
+              0 8px 8px rgba(0,0,0,0.12),
+              0 16px 16px rgba(0,0,0,0.12);
+  }
+p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  padding-left:20px ;
+  padding-right: 10px;
+  text-align: justify;
+  
+
+}
+.small{
+  padding-top: 5px;
+  position: absolute;
+  font-size: 10px;
+  margin-top: 20px;
+}
+.iconn{
+  margin-left: -20px;
+}
+.sukien1{
+  /* position: absolute; */
+  margin-top: 100px;
+  width: 350px;
+  height: 430px;
+  border: 5px solid orangered;
+  border-radius: 10px;
+  margin-left: 30px;
+  background-color: orange;
+  
+  
+}
+.sukienn{
+  margin-top: 0px;
+  border-radius: 10px;
+  margin-left: 0px;
+  width: 350px;
+  height: 200px;
+
+}
+
+.aa{
+  margin-left: 20px;
+  font-size: 25px;
+  color: whitesmoke;
+
+}
+.bb{
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color:rgb(117, 117, 116);
+  width: 330px;
+  height: 60px;
+  background-color: rgb(212, 211, 211);
+  border-radius: 20px;
+
+}
+.cc{
+  font-size: 13px;
+  margin-top: 10px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color:rgb(117, 117, 116);
+  width: 330px;
+  height: 60px;
+  background-color: rgb(212, 211, 211);
+  border-radius: 20px;
+}
+.linkk{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  margin-top: 10px;
+  margin-left: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color:rgb(117, 117, 116);
+  width: 290px;
+  height: 40px;
+  background-color: orangered;
+  border: 3px solid whitesmoke;
+  border-radius: 20px;
+  transition: all 0.5s ease;
+  font-size: 17px;
+
+}
+.linkk:hover{
+  transform: scale(1.1);
+}
+.sukien2{
+  margin-top: -440px;
+  width: 350px;
+  height: 430px;
+  border: 5px solid orangered;
+  border-radius: 10px;
+  margin-left: 500px;
+  background-color: orange;
+
+}
+.aaa{
+  margin-left: 20px;
+  font-size: 15px;
+  color: whitesmoke;
+}
+.bbb{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  color:rgb(117, 117, 116);
+  width: 330px;
+  height: 55px;
+  background-color: rgb(212, 211, 211);
+  border-radius: 20px;
+}
+.hoho{
+  transition: all 0.5s ease;
+}
+.hoho{
+  
+  margin-left: 43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: whitesmoke;
+  padding-left:20px ;
+  padding-right: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  height: 30px;
+  width: 190px;
+}
+
+.hoho:hover{
+  border-radius: 10px;
+  transform: scale(1.1);
+  background-color: orangered;
+  box-shadow: 0 1px 1px rgba(255, 62, 3, 0.336), 
+              0 2px 2px rgba(255, 62, 3, 0.336), 
+              0 4px 4px rgba(255, 62, 3, 0.336), 
+              0 8px 8px rgba(255, 62, 3, 0.336),
+              0 16px 16px rgba(255, 62, 3, 0.336);
+  
+
+}

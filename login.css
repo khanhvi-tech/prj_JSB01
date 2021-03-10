@@ -1,0 +1,67 @@
+.container{
+    
+    background-size: cover;
+ 
+    background-size: 1300px;
+}
+.leftbar{
+    margin-top: 10px;
+    margin-left: 50px;
+    position: absolute;
+    width: 450px;
+    height: 615px;
+    background-color: rgba(245, 245, 245, 0.596);
+    border-radius: 10px;
+
+}
+input{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 30px;
+    border-radius: 30px;
+}
+.content{
+   margin-left: 70px;
+   font-family: 'Langar', cursive;
+}
+.user{
+    color:rgb(78, 76, 76);
+    margin-left: 12px;
+    font-size: 30px;
+    font-family: 'Langar', cursive;
+}
+.sign{
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-left: 65px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Langar', cursive;
+    height: 40px;
+    width: 170px;
+    border-radius: 30px;
+    transition: all 0.5s ease;
+    color: whitesmoke;
+
+}
+.sign:hover{
+    transform: scale(1.1);
+
+}
+.Header{
+    margin-top:80px;
+}
+.acc{
+    margin-top: 50px;
+    margin-left:25px;
+}
+a{  
+    transition: all 0.5s ease;
+    text-decoration: none;
+    color: orangered;
+    
+}
