@@ -22,7 +22,7 @@
 .container1{
     height: 636px;
     width:1300px;
-    background-image: linear-gradient(to top,rgba(185, 184, 184, 0), rgba(114, 112, 112, 0.73)),url(https://pbs.twimg.com/media/ESeNrs5UYAA2w3B?format=jpg&name=large);
+    /* background-image: linear-gradient(to top,rgba(185, 184, 184, 0), rgba(114, 112, 112, 0.73)),url(https://pbs.twimg.com/media/ESeNrs5UYAA2w3B?format=jpg&name=large); */
     background-size: 1620px;
     background-repeat: no-repeat;
 }
