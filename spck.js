@@ -1,6 +1,6 @@
 function countdownTimer() {
-    const difference = +new Date("2020-12-20") - +new Date();
-    let remaining = "Haikyuu Season 4 Court 2 - Ep 12 Released ";
+    const difference = +new Date("2021-6-21") - +new Date();
+    let remaining = "Haikyuu Season 5 Ep 1 May Be Released ";
   
     if (difference > 0) {
       const parts = {
